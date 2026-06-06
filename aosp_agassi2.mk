@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Device
-$(call inherit-product, device/huawei/prague/full_prague.mk)
+$(call inherit-product, device/huawei/prague/full_agassi2.mk)
 
 # Inherit DarkJoker360's Vendor
 $(call inherit-product-if-exists, vendor/DarkJoker360/DarkJoker360.mk)

@@ -30,6 +30,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Device
 $(call inherit-product, device/huawei/prague/device.mk)
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+
 PRODUCT_DEVICE := agassi2
 PRODUCT_NAME := full_agassi2
 PRODUCT_BRAND := Huawei

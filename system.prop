@@ -19,8 +19,8 @@ ro.vendor.qti.sys.fw.bg_apps_limit=60
 # RIL
 persist.sys.radio.huawei=true
 
-# Security Patches
-ro.build.version.security_patch_sys=2019-06-05
+# Security Patches (fake cause' why not!)
+ro.build.version.security_patch_sys=2026-06-06
 
 # Statsd
 ro.statsd.enable=false

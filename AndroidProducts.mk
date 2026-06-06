@@ -24,6 +24,10 @@
 # components.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_agassi2.mk \
-    $(LOCAL_DIR)/full_agassi2.mk \
+    $(LOCAL_DIR)/aosp_agassi2.mk
+
+COMMON_LUNCH_CHOICES := \
+    aosp_agassi2-userdebug \
+    aosp_agassi2-eng \
+    aosp_agassi2-user
 

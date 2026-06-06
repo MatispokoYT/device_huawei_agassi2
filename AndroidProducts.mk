@@ -28,6 +28,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_agassi2-userdebug \
-    aosp_agassi2-eng \
-    aosp_agassi2-user
 

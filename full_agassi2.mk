@@ -30,10 +30,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Device
 $(call inherit-product, device/huawei/prague/device.mk)
 
-PRODUCT_DEVICE := prague
-PRODUCT_NAME := full_prague
+PRODUCT_DEVICE := agassi2
+PRODUCT_NAME := full_agassi2
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := prague
+PRODUCT_MODEL := agassi2
 
 # GMS
 PRODUCT_GMS_CLIENTID_BASE := android-huawei

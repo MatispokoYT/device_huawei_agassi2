@@ -33,6 +33,8 @@ $(call inherit-product, device/huawei/prague/full_agassi2.mk)
 # Inherit DarkJoker360's Vendor
 $(call inherit-product-if-exists, vendor/DarkJoker360/DarkJoker360.mk)
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+
 PRODUCT_NAME := aosp_agassi2
 PRODUCT_DEVICE := agassi2
 PRODUCT_BRAND := Huawei

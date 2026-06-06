@@ -33,8 +33,8 @@ $(call inherit-product, device/huawei/prague/full_prague.mk)
 # Inherit DarkJoker360's Vendor
 $(call inherit-product-if-exists, vendor/DarkJoker360/DarkJoker360.mk)
 
-PRODUCT_NAME := aosp_prague
-PRODUCT_DEVICE := prague
+PRODUCT_NAME := aosp_agassi2
+PRODUCT_DEVICE := agassi2
 PRODUCT_BRAND := Huawei
-PRODUCT_MODEL := Huawei P8 Lite 2017
+PRODUCT_MODEL := Huawei MediaPad T5
 
